@@ -1,0 +1,148 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=windows&sources=Web
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-length:
+      - '11481'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Wed, 15 Feb 2012 19:36:58 GMT
+      connection:
+      - keep-alive
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"windows"},"Web":{"Total":29100000,"Offset":0,"Results":[{"Title":"Microsoft
+      Windows","Description":"The official website for the Microsoft Windows operating
+      system. Explore Windows info, get downloads, and find the latest PCs for Windows.","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/home","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=5017076298350874&w=db1d9cc4,fc8170b7","DisplayUrl":"windows.microsoft.com","DateTime":"2012-02-14T13:52:00Z","SearchTags":[{"Name":"search.os","Value":"\"Windows\""},{"Name":"search.product","Value":"\"eADQiWindows
+      7XVcnh\""},{"Name":"search.product","Value":"\"eADQiWindows VistaXVcnh\""},{"Name":"search.product","Value":"\"eADQiWindows
+      XPXVcnh\""},{"Name":"search.appliesto","Value":"\"WOL\""},{"Name":"search.pagetitle","Value":"\"Microsoft
+      Windows\""}],"DeepLinks":[{"Title":"Downloads","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads"},{"Title":"Internet
+      Explorer","Url":"http:\/\/windows.microsoft.com\/en-US\/internet-explorer\/products\/ie\/home"},{"Title":"Windows
+      Media Player","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/windows-media-player"},{"Title":"What
+      is Windows 7","Url":"http:\/\/windows.microsoft.com\/en-US\/windows7\/products\/what-is"},{"Title":"Windows
+      7​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/windows-7"},{"Title":"Windows
+      Xp​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/windows-xp"},{"Title":"Desktop
+      Backgrounds​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/personalize\/wallpaper-desktop-background"},{"Title":"Windows
+      7 Themes​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/personalize\/themes"}]},{"Title":"Microsoft
+      Windows - Wikipedia, the free encyclopedia","Description":"Microsoft Windows
+      is a series of operating systems produced by Microsoft. Microsoft introduced
+      an operating environment named Windows on November 20, 1985 as an add ...","Url":"http:\/\/en.wikipedia.org\/wiki\/Microsoft_windows","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4530340570401245&w=f15c00b3,bba77ba4","DisplayUrl":"en.wikipedia.org\/wiki\/Microsoft_windows","DateTime":"2012-02-14T16:14:00Z"},{"Title":"Windows,
+      Window Screens, & Specialty Windows at The Home Depot","Description":"Save money
+      with double hung windows, single hung windows or gliders, all with insulated
+      glass and optional screens. Receive a tax credit with certified windows from
+      ...","Url":"http:\/\/www.homedepot.com\/Doors-Windows-Windows\/h_d1\/N-5yc1vZaq1w\/h_d2\/Navigation?langId=-1&storeId=10051&catalogId=10053&searchNav=true","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4839582490559347&w=43c61e05,2b836d91","DisplayUrl":"www.homedepot.com\/Doors-Windows-Windows\/h_d1\/N-5yc1vZaq1w\/h_d2...","DateTime":"2012-02-07T15:31:00Z"},{"Title":"Andersen
+      Windows & Doors","Description":"Andersen Windows – Energy Efficient Windows
+      & Doors for Window Replacement, Home Remodeling, and Building.","Url":"http:\/\/www.andersenwindows.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4734617788025418&w=f4e1667,6a2227ab","DisplayUrl":"www.andersenwindows.com","DateTime":"2012-02-14T00:54:00Z","DeepLinks":[{"Title":"All
+      Windows","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/AW\/Page\/awProductWindowSelector\/1102951372825"},{"Title":"Service
+      & Parts","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/AW\/Page\/awGeneral-3\/1116852780873"},{"Title":"Install
+      & Replace","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/window-installation_window-replacement.htm"},{"Title":"Doors","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/AW\/Page\/awProductDoorSelector\/1102951372828"},{"Title":"Photo
+      Gallery","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/photo-gallery.htm"},{"Title":"Where
+      To Buy","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/AW\/Page\/wtbResults\/1143822573403"},{"Title":"Contact
+      Us","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite?cid=1104867941444&pagename=AW%2FPage%2FawForm_ContactUs&c=Page"},{"Title":"2011
+      Tax","Url":"http:\/\/www.andersenwindows.com\/servlet\/Satellite\/AW\/Page\/awGeneral-3NoCache\/1295524825056"}]},{"Title":"Hotmail","Description":"Powerful
+      free e-mail with security from Microsoft - Windows Live Hotmail is a best in
+      class e-mail service that helps you organize and manage all your online stuff
+      in ...","Url":"http:\/\/www.hotmail.com\/","DisplayUrl":"www.hotmail.com","DateTime":"2012-02-13T20:00:00Z"},{"Title":"Windows
+      products - Microsoft Windows","Description":"Get to know the latest products
+      for your Windows-based PC. Windows 7, Windows Live, Windows Mobile, and more.","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/products","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=5033895390217998&w=65d16cb2,b4cabf05","DisplayUrl":"windows.microsoft.com\/en-US\/windows\/products","DateTime":"2012-02-12T14:54:00Z","SearchTags":[{"Name":"search.os","Value":"\"Windows\""},{"Name":"search.product","Value":"\"eADQiWindows
+      7XVcnh\""},{"Name":"search.appliesto","Value":"\"WOL\""},{"Name":"search.pagetitle","Value":"\"Windows
+      products\""}],"DeepLinks":[{"Title":"Internet Explorer","Url":"http:\/\/windows.microsoft.com\/en-US\/internet-explorer\/products\/ie\/home"},{"Title":"Downloads​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads"},{"Title":"Windows
+      7","Url":"http:\/\/windows.microsoft.com\/en-US\/windows7\/products\/home"},{"Title":"Windows
+      Media Player","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/products\/windows-media-player"},{"Title":"Windows
+      Xp​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/windows-xp"},{"Title":"Office
+      - Office.com","Url":"http:\/\/office.microsoft.com\/en-us\/"},{"Title":"Desktop
+      Backgrounds​","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/personalize\/wallpaper-desktop-background"},{"Title":"Windows
+      7 Themes","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/downloads\/personalize\/themes"}]},{"Title":"Free
+      software downloads and software reviews - CNET Download.com","Description":"The
+      software giant takes another step toward releasing its next computer operating
+      system, holding an event at Mobile World Congress to unveil the Windows 8 beta.","Url":"http:\/\/download.cnet.com\/windows\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4659090794610854&w=bc82df8e,f8eb78b0","DisplayUrl":"download.cnet.com","DateTime":"2012-02-09T15:06:00Z","DeepLinks":[{"Title":"Downloads","Url":"http:\/\/download.cnet.com\/windows\/3150-20_4-0.html?filter=licenseName=Free&tag=rb_content;contentNav"},{"Title":"Avg
+      Anti","Url":"http:\/\/download.cnet.com\/AVG-Anti-Virus-Free-Edition\/3000-2239_4-10320142.html"},{"Title":"Top
+      Freeware","Url":"http:\/\/download.cnet.com\/windows\/3150-20_4-0.html?filter=licenseName=Free"},{"Title":"YouTube
+      Downloader","Url":"http:\/\/download.cnet.com\/YouTube-Downloader\/3000-2071_4-10647340.html"},{"Title":"Frostwire","Url":"http:\/\/download.cnet.com\/1770-20_4-0.html?query=frostwire&platformSelect=Windows&tag=srch%3Ba&searchtype=downloads&filterName=platform%3DWindows&filter=platform%3DWindows"},{"Title":"Avast
+      Free Antivirus","Url":"http:\/\/download.cnet.com\/Avast-Free-Antivirus\/3000-2239_4-10019223.html"},{"Title":"Malwarebytes","Url":"http:\/\/download.cnet.com\/1770-20_4-0.html?query=malwarebytes&platformSelect=Windows&tag=srch%3Ba&searchtype=downloads&filterName=platform%3DWindows&filter=platform%3DWindows"},{"Title":"VLC
+      Media Player","Url":"http:\/\/download.cnet.com\/1770-20_4-0.html?query=vlc+media+player&platformSelect=Windows&tag=srch%3Ba&searchtype=downloads&filterName=platform%3DWindows&filter=platform%3DWindows"}]},{"Title":"Marvin
+      Windows and Doors - Energy Efficient Windows & Patio Doors","Description":"Marvin
+      Windows and Doors offers endless customization options & design flexibility
+      with energy efficient windows, patio doors & sliding doors.","Url":"http:\/\/www.marvin.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4565469095462369&w=d2757d5a,6fcc8e33","DisplayUrl":"www.marvin.com","DateTime":"2012-02-14T04:41:00Z","DeepLinks":[{"Title":"Replacement","Url":"http:\/\/www.marvin.com\/?page=Replacement"},{"Title":"Double
+      Hung","Url":"http:\/\/marvin.com\/?page=Double_Hung"},{"Title":"Casement & Awning","Url":"http:\/\/marvin.com\/?page=Casement_And_Awning"},{"Title":"Entry
+      Doors","Url":"http:\/\/marvin.com\/?page=EntryDoors"},{"Title":"Sliding Doors","Url":"http:\/\/marvin.com\/?page=Sliding"},{"Title":"Windows","Url":"http:\/\/www.marvin.com\/windows\/"},{"Title":"Double
+      Hung Windows","Url":"http:\/\/www.marvin.com\/windows\/double-hung-windows\/"},{"Title":"Patio
+      Doors","Url":"http:\/\/www.marvin.com\/patio-doors\/"}]},{"Title":"Microsoft
+      Support","Description":"Algeria - Français; Argentina - Español; Australia -
+      English; België ... Windows Phone","Url":"http:\/\/support.microsoft.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4961237437515994&w=f2d19903,a2c1062c","DisplayUrl":"support.microsoft.com","DateTime":"2012-02-12T22:29:00Z","SearchTags":[{"Name":"search.assets","Value":"\"0\""},{"Name":"search.title","Value":"\"\""},{"Name":"search.kbparents","Value":"\"\""},{"Name":"search.scid","Value":"\"gp;en-us;gsshomepage\""}],"DeepLinks":[{"Title":"Downloads","Url":"http:\/\/support.microsoft.com\/gp\/downloadover\/"},{"Title":"Help
+      and Support","Url":"http:\/\/support.microsoft.com\/contactus\/cu_sc_prodact_master?ws=support"},{"Title":"Contact
+      Us","Url":"http:\/\/support.microsoft.com\/contactus\/?ws=support"},{"Title":"Download
+      and Updates","Url":"http:\/\/support.microsoft.com\/gp\/downloadover\/"},{"Title":"Solution
+      Centers","Url":"http:\/\/support.microsoft.com\/select\/?target=hub"},{"Title":"Internet
+      Explorer","Url":"http:\/\/windows.microsoft.com\/en-US\/internet-explorer\/products\/ie\/home"},{"Title":"Windows
+      7","Url":"http:\/\/support.microsoft.com\/ph\/14019"},{"Title":"Windows","Url":"http:\/\/windows.microsoft.com\/en-US\/windows\/home"},{"Title":"Microsoft
+      Update","Url":"http:\/\/www.update.microsoft.com\/microsoftupdate\/v6\/vistadefault.aspx?ln=en-us"}]},{"Title":"Audacity:
+      Windows","Description":"Recommended Download. System Requirements. Windows 98\/ME\/2000\/XP:
+      Audacity 1.2.6 installer (.exe file, 2.1 MB) - The latest version of the free
+      Audacity audio editor.","Url":"http:\/\/audacity.sourceforge.net\/download\/windows","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=windows&d=4538569716859259&w=7a67c8,cf79f6ae","DisplayUrl":"audacity.sourceforge.net\/download\/windows","DateTime":"2012-02-12T01:53:00Z","DeepLinks":[{"Title":"Lame
+      MP3 Encoder","Url":"http:\/\/audacity.sourceforge.net\/help\/faq?s=install&item=lame-mp3"},{"Title":"Windows","Url":"http:\/\/audacity.sourceforge.net\/download\/beta_windows"},{"Title":"Plug-Ins","Url":"http:\/\/audacity.sourceforge.net\/download\/plugins"},{"Title":"New
+      Features in 1.3","Url":"http:\/\/audacity.sourceforge.net\/download\/features-1.3-a"},{"Title":"About","Url":"http:\/\/audacity.sourceforge.net\/about\/"},{"Title":"Help","Url":"http:\/\/audacity.sourceforge.net\/help\/"},{"Title":"Vst
+      Enabler","Url":"http:\/\/audacity.sourceforge.net\/help\/faq?s=install&item=vst-enabler"},{"Title":"Contact
+      Us","Url":"http:\/\/audacity.sourceforge.net\/contact\/"}]}]}}}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=beos&sources=Web
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-length:
+      - '5157'
+      content-type:
+      - application/json; charset=utf-8
+      date:
+      - Wed, 15 Feb 2012 19:36:59 GMT
+      connection:
+      - keep-alive
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"beos"},"Web":{"Total":5630000,"Offset":0,"Results":[{"Title":"BeOS
+      - Wikipedia, the free encyclopedia","Description":"BeOS is an operating system
+      for personal computers which began development by Be Inc. in 1991. It was first
+      written to run on BeBox hardware. BeOS was optimized for ...","Url":"http:\/\/en.wikipedia.org\/wiki\/BeOS","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4667904058394962&w=48d22ff2,41af7d6c","DisplayUrl":"en.wikipedia.org\/wiki\/BeOS","DateTime":"2012-02-13T14:04:00Z"},{"Title":"Welcome
+      to Be Incorporated!","Description":"Official web site for Be Incorporated, makers
+      of BeOS, the state of the art in digital media creation and playback for desktop
+      computers and Internet appliances.","Url":"http:\/\/www.beincorporated.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4700915180571092&w=1184020d,62b000d2","DisplayUrl":"www.beincorporated.com","DateTime":"2012-02-12T06:53:00Z"},{"Title":"BeBits
+      - BeOS 5 Personal Edition","Description":"Variation description: BeOS R5 Development
+      Tools This is a set of development tools for the BeOS. Included are a BeOS port
+      of gcc, make, and other GNU development ...","Url":"http:\/\/www.bebits.com\/app\/2680","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4922200471374103&w=bfd42713,a5dbe42f","DisplayUrl":"www.bebits.com\/app\/2680","DateTime":"2012-02-13T02:44:00Z"},{"Title":"Home
+      | Haiku Project","Description":"Haiku is an open source desktop operating system
+      currently under development inspired by the BeOS. Haiku aims to provide users
+      of all levels with a personal computing ...","Url":"http:\/\/www.haiku-os.org\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4873624394336954&w=1c53f42d,be769c71","DisplayUrl":"www.haiku-os.org","DateTime":"2012-02-12T21:34:00Z","DeepLinks":[{"Title":"Download","Url":"http:\/\/www.haiku-os.org\/get-haiku"},{"Title":"Haiku
+      Slideshow","Url":"http:\/\/www.haiku-os.org\/slideshows\/haiku-tour"},{"Title":"Installation
+      Guide","Url":"http:\/\/www.haiku-os.org\/get-haiku\/installation-guide"},{"Title":"Development","Url":"http:\/\/www.haiku-os.org\/development"},{"Title":"About","Url":"http:\/\/www.haiku-os.org\/about"},{"Title":"Documents","Url":"http:\/\/www.haiku-os.org\/documents"},{"Title":"Haiku
+      User Guide","Url":"http:\/\/www.haiku-os.org\/docs\/userguide\/en\/contents.html"},{"Title":"Community","Url":"http:\/\/www.haiku-os.org\/community"}]},{"Title":"BeOS
+      5.0 Personal Edition - Nathan''s Toasty Technology Page","Description":"GUIs
+      Site News Xerox Visi On GEM Deskmate GEOS Desqview\/X AmigaOS RISC OS BeOS QNX
+      OS\/2 Apple Linux\/Unix Windows Win Shells Misc GUIs GUI Timeline GUI Sites:
+      Location ...","Url":"http:\/\/toastytech.com\/guis\/b5pe.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4990078147627554&w=83b686be,237fcfad","DisplayUrl":"toastytech.com\/guis\/b5pe.html","DateTime":"2012-02-12T08:19:00Z"},{"Title":"BeOS:
+      Information from Answers.com","Description":"(1) (Be, Inc., Menlo Park, CA)
+      A software company founded in 1990 by Jean Louise Gassee, former head of R&D
+      at Apple, that specialized in the BeOS operating system ...","Url":"http:\/\/www.answers.com\/topic\/beos","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4657763647491828&w=d210a538,bc35d096","DisplayUrl":"www.answers.com\/topic\/beos","DateTime":"2012-02-13T06:03:00Z"},{"Title":"BeOS
+      Operating System","Description":"BeOS Operating System - Details about operating
+      systems with screenshots, version information and about the developers.","Url":"http:\/\/www.operating-system.org\/betriebssystem\/_english\/bs-beos.htm","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4899591765101772&w=9d36de9,b39502fd","DisplayUrl":"www.operating-system.org\/betriebssystem\/_english\/bs-beos.htm","DateTime":"2012-02-13T02:38:00Z"},{"Title":"BeBits
+      - BeOS Software!","Description":"A BeOS files site similar to Freshmeat and
+      winfiles.com. A source for files and applications for the Be Operating System.","Url":"http:\/\/bebits.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4663201065404265&w=e565a8c8,e5be072f","DisplayUrl":"bebits.com","DateTime":"2012-02-12T21:59:00Z"},{"Title":"Haiku
+      (operating system) - Wikipedia, the free encyclopedia","Description":"Haiku
+      is a free and open source operating system compatible with BeOS. Its development
+      began in 2001, and the operating system became self-hosting in 2008, with the
+      ...","Url":"http:\/\/en.wikipedia.org\/wiki\/Haiku_(operating_system)","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4650131483264477&w=8307a692,d1fed05c","DisplayUrl":"en.wikipedia.org\/wiki\/Haiku_(operating_system)","DateTime":"2012-02-12T16:16:00Z"},{"Title":"BeBits
+      - BeOS","Description":"See NewbieInfo page. What is the BeOS? BeOS is a modern
+      operating system that provides speed, ease of use, responsiveness and stability.
+      Built ''from scratch'', BeOS ...","Url":"http:\/\/wiki.bebits.com\/page\/BeOS","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=beos&d=4787536067035401&w=de38ad71,ab749482","DisplayUrl":"wiki.bebits.com\/page\/BeOS","DateTime":"2012-02-08T00:46:00Z"}]}}}'
+    http_version: '1.1'

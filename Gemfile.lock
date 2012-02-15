@@ -76,6 +76,9 @@ GEM
       guard (>= 0.10.0)
       spork (>= 0.8.4)
     hike (1.2.1)
+    httparty (0.8.1)
+      multi_json
+      multi_xml
     i18n (0.6.0)
     journey (1.0.1)
     jquery-rails (2.0.0)
@@ -88,6 +91,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     multi_json (1.0.4)
+    multi_xml (0.4.1)
     nokogiri (1.5.0)
     polyglot (0.3.3)
     rack (1.4.1)
@@ -113,6 +117,8 @@ GEM
       rdoc (~> 3.4)
       thor (~> 0.14.6)
     rake (0.9.2.2)
+    rbing (1.1.0)
+      httparty (>= 0.4.0)
     rdoc (3.12)
       json (~> 1.4)
     rspec (2.8.0)
@@ -173,6 +179,7 @@ DEPENDENCIES
   guard-spork
   jquery-rails
   rails (= 3.2.1)
+  rbing
   rspec-rails
   sass-rails (~> 3.2.3)
   sqlite3
