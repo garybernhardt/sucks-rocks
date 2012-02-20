@@ -33,12 +33,12 @@ jQuery(function($) {
     }
     
     var updateRow = function(data) {
-        data.ratio = data.rocks / (data.sucks + data.rocks);
+        data.score = data.score
         data.row.removeClass('loading');
         var graph = data.row.find('td.result-graph');
-        if (!isNaN(data.ratio)) {
-            data.score = (data.ratio * 10).toFixed(1);
-            graph.find('.bar').width(data.ratio * 100 + '%');
+        if (!isNaN(data.score)) {
+            data.score = data.score.toFixed(1);
+            graph.find('.bar').width(data.score * 10 + '%');
             graph.find('.graph').click(function(e) {
                 $(this).parents('table.graph').removeClass('graph').addClass('details');
                 focusInput();
@@ -53,7 +53,6 @@ jQuery(function($) {
             $(this).parents('table.details').removeClass('details').addClass('graph');
             focusInput();
         }).attr('title', "\u201C" + data.term + "\u201D results");
-        details.find('.sucks').text(data.sucks).end().find('.rocks').text(data.rocks);
     }
     
     var handleSearch = function(e) {
@@ -99,7 +98,7 @@ jQuery(function($) {
         rows.sort(function(a, b) {
             var aData = TERMS[$(a).data('term')];
             var bData = TERMS[$(b).data('term')];
-            return bData.ratio - aData.ratio;
+            return bData.score - aData.score;
         });
         if (link.hasClass('asc')) {
             link.removeClass('asc').addClass('desc');
