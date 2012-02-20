@@ -184,7 +184,7 @@ jQuery(function($) {
     
     // Parse the search terms out of the URL    
     var pathMatches = document.URL.match(/^https?:\/\/[^\/]*\/(rate)\/([^?]+)\/?/);
-    if (pathMatches.length >= 3 && pathMatches[1] == 'rate') {
+    if (pathMatches && pathMatches.length >= 3 && pathMatches[1] == 'rate') {
         var terms = $.map(pathMatches[2].split('/'), decodePlus);
         $.map(terms, addTerm);
     }
