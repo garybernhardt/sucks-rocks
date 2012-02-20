@@ -1,0 +1,289 @@
+html, body, div, p, form, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 100%/100% Arial, "Bitstream Vera Sans", "DejaVu Sans", Verdana, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a, a:link, a:visited {
+    color: #00f;
+}
+
+a img {
+    border: 0;
+}
+
+#header {
+    margin-top: 0;
+    margin-bottom: 2em;
+    background-color: #a02c2c;
+    color: #fff4cf;
+    height: 124px;
+}
+
+#header a {
+    color: #fff4cf;
+    text-decoration: none;
+}
+
+#header a img {
+    border: 0;
+}
+
+#header img {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 300%;
+    line-height: 100%;
+    font-weight: bold;
+    padding: 0.7em;
+    text-align: right;
+    letter-spacing: -2px;
+}
+
+h2 {
+    color: #999;
+    font-weight: bold;
+    font-size: 100%;
+    letter-spacing: -1px;
+    padding: 0;
+    margin: 4px 0;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#rate {
+    display: block;
+    clear: both;
+    width: 30em;
+    margin: 1em auto;
+    padding: 1em;
+    border-top: 1px solid #bbb;
+    border-left: 1px solid #bbb;
+    border-right: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+#term {
+    width: 99%;
+    background: #fff url('input.gif') repeat-x top left;
+    color: #000;
+    border: 2px solid #666;
+    font-size: 100%;
+    margin-bottom: 0.5em;
+}
+
+#examples h2 {
+    text-align: center;
+}
+
+#examples a {
+    color: #4a5c62;
+}
+
+#examples ul {
+    list-style-type: none;
+}
+
+#examples li {
+    padding: 2px 4px;
+}
+
+#results {
+    display: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    text-align: left;
+    background-color: #fff;
+    padding: 4px;
+}
+
+tr.odd td {
+    background-color: #ececec;
+}
+
+th {
+    font-size: 92%;
+    color: #777;
+    font-weight: normal;
+    text-align: left;
+    padding-bottom: 0.25em;
+    border-bottom: 1px dotted #aaa;
+    white-space: nowrap;
+}
+
+#results tfoot td {
+    font-size: 92%;
+    padding-top: 0.25em;
+    border-top: 1px dotted #aaa;
+}
+
+.result-term {
+    width: 75%;
+    font-size: 110%;
+    font-weight: bold;
+}
+
+.result-score {
+    font-weight: bold;
+    color: #444;
+}
+
+.result-graph {
+    text-align: left;
+}
+
+.result-details {
+    display: none;
+}
+
+div.graph {
+    width: 10em;
+    text-align: left;
+    background-color: #ddb3b3;
+}
+
+tr.loading div.graph {
+    background-image: url('progress.gif');
+}
+
+div.bar {
+    display: block;
+    width: 0;
+    background: #a02c2c url('bar.gif');
+    height: 1em;
+}
+
+.right {
+    text-align: right;
+}
+
+p.details {
+    width: 13.333em;
+    color: #aba;
+    text-align: center;
+    font-size: 75%;
+    white-space: nowrap;
+    font-weight: bold;
+    padding: 0;
+}
+
+table.graph p.details,
+table.details div.graph,
+table.graph thead th.right span.details,
+table.details thead th.right span.graph {
+    display: none;
+}
+
+p.details span.sucks {
+    color: #e98;
+}
+
+p.details span.rocks {
+    color: #8c7;
+}
+
+#attribution {
+    margin: 1em auto;
+}
+
+#sections {
+    width: 27em;
+    margin: 2em auto;
+    padding: 0.5em;
+    font-size: 83%;
+    color: #777;
+    text-align: center;
+    background-color: #e7e6e5;
+}
+
+#examples-link, #latest-link, #how-link {
+    font-weight: bold;
+    padding: 0.5em;
+}
+
+#sections a.selected {
+    background-color: #fff;
+    border-top: 2px solid #a02c2c;
+    text-decoration: none;
+}
+
+.section {
+    background-color: #fff;
+    margin-top: 0.5em;
+    clear: both;
+    color: #333;
+    text-align: left;
+    padding: 0.5em;
+}
+
+#examples {
+    text-align: center;
+}
+
+#latest, #how {
+    display: none;
+}
+
+#latest-results {
+    font-size: 92%;
+}
+
+#latest-results tfoot td {
+    color: #666;
+    text-align: center;
+}
+
+#footer {
+    clear: both;
+    margin: 2em;
+    font-size: 83%;
+    color: #777;
+    text-align: center;
+}
+
+#sections p {
+    padding: 0.5em;
+}
+
+#latest-results p {
+    padding: 0;
+}
+
+#sections a, #footer a {
+    color: #4a5c62;
+}
+
+#sort {
+    padding-right: 16px;
+}
+
+.asc {
+    background: url('asc.gif') no-repeat right center;
+}
+
+.desc {
+    background: url('desc.gif') no-repeat right center;
+}
+
+.center {
+    text-align: center;
+}
