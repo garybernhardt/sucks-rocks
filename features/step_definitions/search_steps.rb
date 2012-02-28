@@ -3,7 +3,7 @@ When /^I search for (.*)$/ do |term|
   @scores[term] = RockScore.for_term(term)
 end
 
-Then /^apple should have a higher score than microsoft$/ do
-  @scores["apple"].should be > @scores["microsoft"]
+Then /^the beatles should have a higher score than comcast/ do
+  @scores["the beatles"].should be > @scores["comcast"]
 end
 

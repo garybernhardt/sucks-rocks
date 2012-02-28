@@ -2,7 +2,7 @@
 - !ruby/struct:VCR::HTTPInteraction
   request: !ruby/struct:VCR::Request
     method: :get
-    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=microsoft%20rocks&sources=Web
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22comcast%20rocks%22&sources=Web
     body: 
     headers: 
   response: !ruby/struct:VCR::Response
@@ -11,50 +11,50 @@
       message: OK
     headers:
       content-length:
-      - '6630'
+      - '4963'
       content-type:
       - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
       date:
-      - Wed, 15 Feb 2012 19:39:09 GMT
+      - Tue, 28 Feb 2012 22:15:24 GMT
       connection:
       - keep-alive
-    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"microsoft
-      rocks"},"Web":{"Total":70500000,"Offset":0,"Results":[{"Title":"Microsoft Rocks
-      « Off The Hoox","Description":"It’s not every day that I will come up with such
-      a crazy statement but I must say, the propeller heads with big thick glasses
-      that hide away in dark, damp, dungeon ...","Url":"http:\/\/offthehoox.com\/2007\/07\/21\/microsoft-rocks\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4716149427669225&w=e59ff272,5128b8d9","DisplayUrl":"offthehoox.com\/2007\/07\/21\/microsoft-rocks","DateTime":"2012-02-05T08:21:00Z"},{"Title":"MS
-      ROCK STUDIOS","Description":"MS ROCK STUDIOS 2011. Ms Rock Studios specializes
-      in voice enhancement through quality vocal recordings and voice coaching.","Url":"http:\/\/www.msrock.net\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4530718510876139&w=a9412192,596f7061","DisplayUrl":"www.msrock.net","DateTime":"2012-02-10T07:28:00Z"},{"Title":"microsoft
-      rocks - Microsoft Security Essentials user review","Description":"totally awesome!
-      thanks microsoft for protection in these hard times,you''re the bomb,as a beginner
-      i found the installation not to bad, i like the program, it has all ...","Url":"http:\/\/microsoft-security-essentials.en.softonic.com\/opinion\/microsoft-rocks-127801","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4663299849913414&w=718525eb,a98b901f","DisplayUrl":"microsoft-security-essentials.en.softonic.com\/...\/microsoft-rocks...","DateTime":"2012-02-13T12:25:00Z"},{"Title":"Microsoft
-      Rocks @!","Description":"Its not just student Rock star but microsoft Rocks
-      ! They just made literally 1000''s 000 of students to avid to their web page
-      forums and technologies once ...","Url":"http:\/\/social.microsoft.com\/forums\/en-us\/studentrockstar\/thread\/962C06EA-B4F1-478B-9224-4D71B07D8986","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4823283090720100&w=68ef6a0e,6e67c126","DisplayUrl":"social.microsoft.com\/forums\/en-us\/studentrockstar\/thread\/962C06EA...","DateTime":"2012-02-12T14:22:00Z","SearchTags":[{"Name":"search.sourcetype","Value":"\"Forums\""},{"Name":"search.msforums.version","Value":"\"4.0\""},{"Name":"search.msforums.brand","Value":"\"Microsoft\""},{"Name":"search.msforums.locale","Value":"\"en-US\""},{"Name":"search.msforums.language","Value":"\"en\""},{"Name":"search.msforums.lcid","Value":"\"1033\""},{"Name":"search.msforums.siteid","Value":"\"Microsoft.en-US\""},{"Name":"search.msforums.sitename","Value":"\"Microsoft\""},{"Name":"search.msforums.groupid","Value":"\"a17e8387-d0a5-40cd-b3fd-550a8e9723f0\""},{"Name":"search.msforums.groupname","Value":"\"academicinitiatives\""},{"Name":"search.msforums.forumid","Value":"\"9c4c8716-9596-43aa-a2d1-ca88f5a67f8a\""},{"Name":"search.msforums.forumname","Value":"\"studentrockstar\""},{"Name":"search.msforums.threadid","Value":"\"962c06ea-b4f1-478b-9224-4d71b07d8986\""},{"Name":"search.msforums.threadname","Value":"\"Microsoft
-      Rocks @!\""},{"Name":"search.msforums.isanswered","Value":"\"0\""},{"Name":"search.msforums.isquestion","Value":"\"1\""},{"Name":"search.msforums.postcount","Value":"\"2\""},{"Name":"search.msforums.viewtype","Value":"\"Thread\""},{"Name":"search.msforums.helpfulthread","Value":"\"False\""},{"Name":"search.msforums.description","Value":"\"Microsoft
-      Rocks @!\""},{"Name":"search.msforums.threadstarterusername","Value":"\"Raghunc\""},{"Name":"search.msforums.threadcontributorusername","Value":"\"VARUN_PATHAK_25f9c7\""},{"Name":"search.msforums.threadcontributorusername","Value":"\"Raghunc\""},{"Name":"search.msforums.threadcontributorusername","Value":"\"Mathavan
-      R\""},{"Name":"search.msforums.iroot","Value":"\"\""},{"Name":"search.msforums.categoryname","Value":"\"academicinitiatives\""}]},{"Title":"Microsoft
-      Rocks","Description":"Ever wonder how VMWare''s Capacity Planner figures out
-      which host makes a good candidate for virtualization? Read the FAQ: Capacity
-      Planner FAQ","Url":"http:\/\/microsoftrocks.blogspot.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4932066012824930&w=536eb73,af2c3835","DisplayUrl":"microsoftrocks.blogspot.com","DateTime":"2012-01-10T08:02:00Z"},{"Title":"Microsoft
-      Rocks The Canadian Technology Community","Description":"Microsoft TechDays just
-      rocked Vancouver, Toronto, and Montreal. Thousands of attendees, hundreds of
-      speakers, and some amazing technology. Microsoft is changing the ...","Url":"http:\/\/www.miguelcarrasco.com\/microsoft-rocks-canadian-technology-community\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4535249718086893&w=80edc4d5,d20b8020","DisplayUrl":"www.miguelcarrasco.com\/microsoft-rocks-canadian-technology-community","DateTime":"2012-02-13T12:28:00Z"},{"Title":"MS
-      CONDRA ROCKS - Welcome Page","Description":"This website is meant to be a tool
-      for parent, student, and educator alike. The most powerful option on the site
-      is the \"assignments\" tab where you can track your ...","Url":"http:\/\/www.mscondrarocks.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4996632257167817&w=43e824ad,5887fad8","DisplayUrl":"www.mscondrarocks.com","DateTime":"2012-02-14T00:34:00Z"},{"Title":"Girls
-      Rock","Url":"http:\/\/download.microsoft.com\/download\/7\/E\/2\/7E2F5E3E-77DF-4912-9757-DE569AB48C4B\/GirlsRock.themepack","DisplayUrl":"download.microsoft.com\/...\/GirlsRock.themepack","DateTime":"2012-02-13T12:34:00Z"},{"Title":"10
-      reasons why Microsoft Office 365 rocks | TechRepublic","Description":"Office
-      365 is bringing together Microsoft’s various online productivity tools, from
-      email to Web Apps to communications services. Deb Shinder ex","Url":"http:\/\/www.techrepublic.com\/blog\/10things\/10-reasons-why-microsoft-office-365-rocks\/1929","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4557922839038460&w=98ce089f,af3d3afa","DisplayUrl":"www.techrepublic.com\/blog\/10things\/...microsoft-office-365-rocks\/1929","DateTime":"2012-02-14T13:33:00Z"},{"Title":"Download
-      details: .NET Rocks! - Soma!","Description":"Richard and Carl talk to Microsoft
-      Executive S. Somasegar about his experiences at Microsoft from his early days
-      working on systems like OS\/2, NT, Windows 2000 to ...","Url":"http:\/\/www.microsoft.com\/downloads\/details.aspx?FamilyID=8A094F87-E4DA-4210-80D9-28A8D78BC4FA&amp;amp;displaylang=e","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+rocks&d=4796735887574409&w=d70d1b6,3af32ce6","DisplayUrl":"www.microsoft.com\/downloads\/details.aspx?FamilyID=8A094F87-E4DA...","DateTime":"2012-02-06T11:19:00Z"}]}}}'
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"comcast
+      rocks\""},"Web":{"Total":473,"Offset":0,"Results":[{"Title":"Comcast Rocks!
+      - Serchen Interactive Forums","Description":"We have been more than than pleased
+      with Comcast. The download speeds are consistently in the 6 range and uploads
+      are around 350k. If there has ever been a problem ...","Url":"http:\/\/www.freeforums.com\/showthread.php?23162-Comcast-Rocks!","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4743443956763019&w=4813d9e6,60b9ceaf","DisplayUrl":"www.freeforums.com\/showthread.php?23162-Comcast-Rocks!","DateTime":"2012-02-23T20:00:00Z"},{"Title":"Why
+      Do People Love Comcast? 9% People Do (5,824 opinions)","Description":"COMCAST
+      ROCKS! And a shout out for Scott #7BD at Comcast! http:\/\/t.co\/dvhRe2gU. 24
+      Feb at 02:02 PM by HaroldCameron1 on Twitter - 378 followers - Flag","Url":"http:\/\/amplicate.com\/love\/comcast","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4567638080028697&w=d6073da9,9aa2d443","DisplayUrl":"amplicate.com\/love\/comcast","DateTime":"2012-02-27T00:54:00Z"},{"Title":"Arnold
+      Schwarzenegger calls Gateway Technical Support","Description":"Comcast_Rocks.
+      Veteran Ranter; Posts: 150; Karma: +0\/-0; Cable Provider: Comcast","Url":"http:\/\/www.cablerant.com\/index.php?topic=417.0","DisplayUrl":"www.cablerant.com\/index.php?topic=417.0","DateTime":"2012-02-26T17:51:00Z"},{"Title":"Comcast
+      - I can''t turn off Closed Captions","Description":"Comcast_Rocks. Veteran Ranter;
+      Posts: 150; Karma: +0\/-0; Cable Provider: Comcast","Url":"http:\/\/www.cablerant.com\/index.php?topic=1204.0","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4627716064608522&w=1506be26,8c93704f","DisplayUrl":"www.cablerant.com\/index.php?topic=1204.0","DateTime":"2012-02-22T02:30:00Z"},{"Title":"Does
+      anyone else have Metrocast digitial cable? [Archive ...","Description":"No.....Comcast
+      Rocks ! are you televisiphonernetting? or one of those other things they made
+      up? that was comcast right??? :popcorn:","Url":"http:\/\/forums.somd.com\/archive\/t-113522.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4919640684298915&w=a9716e32,5650411","DisplayUrl":"forums.somd.com\/archive\/t-113522.html","DateTime":"2012-02-22T12:33:00Z"},{"Title":"Is
+      Direct TV better than Comcast? - Yahoo! Answers","Description":"Sundays. Heh,
+      rabbit ears with foil.....that''s a good one! weeder ... no comcast rocks, on
+      demand is only on comcast","Url":"http:\/\/answers.yahoo.com\/question\/index?qid=20080326115657AAn01qc","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4543049377841207&w=bf22d63b,77ee9c06","DisplayUrl":"answers.yahoo.com\/question\/index?qid=20080326115657AAn01qc","DateTime":"2012-01-28T20:56:00Z"},{"Title":"Comcast
+      Corporate Office Headquarters","Description":"Stop complaining and get some
+      patience. And if you don''t like it switch companies. But they must be doing
+      something right, they''re HUGE! COMCAST ROCKS!","Url":"http:\/\/www.corporateofficeheadquarters.com\/2011\/02\/comcast-corporate-office-headquarters.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4867864867177559&w=d0c471dc,7ace5c8","DisplayUrl":"www.corporateofficeheadquarters.com\/2011\/02\/comcast-corporate...","DateTime":"2012-02-26T01:32:00Z"},{"Title":"Working
+      at Comcast - Reviews of Jobs at Comcast","Description":"So every time we want
+      to be negative on here, I will be positive..beacuse thats just the type of person
+      I''m...It takes to much energy to be negative..Comcast Rocks!","Url":"http:\/\/www.jobitorial.com\/comcast-job-reviews-C269","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4758433396490299&w=1679704b,ae2d3172","DisplayUrl":"www.jobitorial.com\/comcast-job-reviews-C269","DateTime":"2012-02-26T20:34:00Z"},{"Title":"Cable
+      tv providers in Sacramento (Carmichael: HOA, live, price ...","Description":"Comcast
+      Rocks !!!!! oh and by the way if your paying for full basic you get 3 boxes
+      free .. BEST INTERNET EVER","Url":"http:\/\/www.city-data.com\/forum\/sacramento\/17631-cable-tv-providers-sacramento.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4862242749221366&w=fb413b8d,e77a0556","DisplayUrl":"www.city-data.com\/forum\/sacramento\/17631-cable-tv-providers...","DateTime":"2012-02-25T09:27:00Z"},{"Title":"Comcast
+      continues local DOCSIS 3.0 roll-out | Electronista","Description":"Comcast Rocks.
+      Can people now shut up about how Comcast''s internet sucks? In the past 10 years
+      it has gone from 1.5Mbps\/128kps to 12Mbps\/2Mbps ALL AT THE SAME PRICE!!!","Url":"http:\/\/www.electronista.com\/articles\/09\/01\/26\/comcast.docsis.30.expands\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+rocks%22&d=4947600930047765&w=e4cb72fb,ebf8ed96","DisplayUrl":"www.electronista.com\/articles\/09\/01\/26\/comcast.docsis.30.expands","DateTime":"2012-02-24T18:15:00Z"}]}}}'
     http_version: '1.1'
 - !ruby/struct:VCR::HTTPInteraction
   request: !ruby/struct:VCR::Request
     method: :get
-    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=microsoft%20sucks&sources=Web
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22comcast%20sucks%22&sources=Web
     body: 
     headers: 
   response: !ruby/struct:VCR::Response
@@ -63,50 +63,48 @@
       message: OK
     headers:
       content-length:
-      - '5042'
+      - '4218'
       content-type:
       - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
       date:
-      - Wed, 15 Feb 2012 19:39:09 GMT
+      - Tue, 28 Feb 2012 22:15:25 GMT
       connection:
       - keep-alive
-    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"microsoft
-      sucks"},"Web":{"Total":17700000,"Offset":0,"Results":[{"Title":"Microsoft Sucks
-      !!!","Description":"Latest postings. microsoft sucks!!! 1 days, 17 hours, 18
-      min. ago; microsoft sucks!!! 2 days, 7 hours, 5 min. ago; Re: Yurin asshole
-      3 days, 9 hours, 22 min. ago","Url":"http:\/\/microsoftsucks.org\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4773989744182120&w=59e2cc1f,d924fd50","DisplayUrl":"microsoftsucks.org","DateTime":"2012-02-14T11:09:00Z"},{"Title":"Microsoft
-      Sucks","Description":"Other \"Microsoft Sucks\" links This is just a very small
-      sampling of the pages around the world that already have the title Microsoft
-      Sucks. A much more extensive and ...","Url":"http:\/\/www.cs.toronto.edu\/~wayne\/microsoft-sucks.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4651681969668892&w=fc29fd7f,b1e1dda5","DisplayUrl":"www.cs.toronto.edu\/~wayne\/microsoft-sucks.html","DateTime":"2012-02-07T21:22:00Z"},{"Title":"Survey
-      Proves that Microsoft Sucks - Brighten Godfrey","Description":"Survey Proves
-      that Microsoft Sucks A recent survey using the Internet has proved that Microsoft
-      sucks; specifically, Microsoft sucks 14.77 times as much as Apple ...","Url":"http:\/\/brighten.bigw.org\/humor\/mine\/microsoft_sucks.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4710900977305529&w=9c401208,51bfc9bd","DisplayUrl":"brighten.bigw.org\/humor\/mine\/microsoft_sucks.html","DateTime":"2012-02-12T16:29:00Z"},{"Title":"Microsoft
-      Sucks !!! - Large List of Microsoft Alternatives","Description":"Large List
-      of Microsoft Alternatives (Microsoft Corp Sucks) by reactosguy, Canada, Friday,
-      December 04, 2009, 12:10 edited by reactosguy, Thursday, January 27, 2011 ...","Url":"http:\/\/www.microsoftsucks.org\/index.php?id=15477","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4797272766285358&w=e940d7fc,723db2fb","DisplayUrl":"www.microsoftsucks.org\/index.php?id=15477","DateTime":"2012-02-13T17:18:00Z"},{"Title":"Microsoft
-      Sucks! | Facebook","Description":"Microsoft Sucks! - All people who like this
-      group think that Microsoft sucks! - Description: This group was created because
-      Microsoft Sucks! | Facebook","Url":"http:\/\/www.facebook.com\/pages\/Microsoft-Sucks\/128849840461260","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4953296043508941&w=307c18cb,ec4c6ee7","DisplayUrl":"www.facebook.com\/pages\/Microsoft-Sucks\/128849840461260","DateTime":"2012-02-14T14:56:00Z"},{"Title":"Microsoft
-      Sucks Up $444 Million From Android Makers | News ...","Description":"Microsoft
-      will reap $444 million in licensing fees from Android manufacturers this year,
-      charging $3-6 per mobile device, according to a report from Goldman Sachs ...","Url":"http:\/\/www.pcmag.com\/article2\/0,2817,2393865,00.asp","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4621604311402866&w=e6c7c972,f526ba41","DisplayUrl":"www.pcmag.com\/article2\/0,2817,2393865,00.asp","DateTime":"2012-02-13T21:37:00Z"},{"Title":"Microsoft
-      sucks | Facebook","Description":"Microsoft sucks - Microsoft is a horrible evil
-      cheap corporation. they cant even make a single good product other then windows.
-      but still that a bullshit scam...","Url":"http:\/\/www.facebook.com\/pages\/Microsoft-sucks\/112198498821466","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4786118735564896&w=f627a52a,8e69c246","DisplayUrl":"www.facebook.com\/pages\/Microsoft-sucks\/112198498821466","DateTime":"2012-02-06T00:41:00Z"},{"Title":"Microsoft
-      Sucks - YouTube","Description":"a video I made some time ago, figured I''ll
-      finally upload it for the youtube community. Enjoy Play League of Legends with
-      Maniak! Fun and Free to play ...","Url":"http:\/\/www.youtube.com\/watch?v=0gCmGXmURRM","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=4916857540247748&w=3d1a1b18,3ced010e","DisplayUrl":"www.youtube.com\/watch?v=0gCmGXmURRM","DateTime":"2012-02-14T10:41:00Z"},{"Title":"Microsoft
-      Sucks - NC State: WWW4 Server","Description":"Microsoft Sucks. A common gripe
-      about Linux users is that they all hate Microsoft. While I think that this is
-      unnecessarily harsh, I also think that some Linux users ...","Url":"http:\/\/www4.ncsu.edu\/~pdbaylie\/micros~1.htm","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=5033543209454774&w=a683c4ad,3c5a95fd","DisplayUrl":"www4.ncsu.edu\/~pdbaylie\/micros~1.htm","DateTime":"2012-02-11T10:41:00Z"},{"Title":"Microsoft
-      sucks at Photoshop -- Engadget","Description":"Officially. Update: Microsoft
-      tells CNET, \"We are looking into the details of this situation. We apologize
-      and are in the process of pulling down the ...","Url":"http:\/\/www.engadget.com\/2009\/08\/25\/microsoft-sucks-at-photoshop\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=microsoft+sucks&d=5026838765374052&w=8ab1039f,efbe08ca","DisplayUrl":"www.engadget.com\/2009\/08\/25\/microsoft-sucks-at-photoshop","DateTime":"2012-02-14T12:06:00Z"}]}}}'
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"comcast
+      sucks\""},"Web":{"Total":50700,"Offset":0,"Results":[{"Title":"Comcast Sucks
+      ComcastSucks.org ComcastSucks .org","Description":"Comcast Sucks ComcastSucks.org
+      ComcastSucks .org ... HEY - - - - - - Turn UP The VOLUME OUR ''Free Speech Rights''
+      at work ... Use Them or LOSE Them !!","Url":"http:\/\/www.comcastsucks.org\/","DisplayUrl":"www.comcastsucks.org","DateTime":"2012-02-19T03:25:00Z"},{"Title":"COMCAST
+      SUCKS!!!! | Facebook","Description":"Over 1500 fans!!!! Lets keep it up! I am
+      sooooo glad so many people agree with me when I say COMCAST SUCKS!!!!!","Url":"http:\/\/www.facebook.com\/pages\/COMCAST-SUCKS\/351147252864","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4974818126005955&w=bc255071,4497f08b","DisplayUrl":"www.facebook.com\/pages\/COMCAST-SUCKS\/351147252864","DateTime":"2012-02-21T14:37:00Z"},{"Title":"comcast-sucks.net","Description":"Driving
+      Game Chairs. What a great entertainment is to play the finest driving car games
+      with your own Logitech GT Force racing wheel, Thrustmaster racing wheel ...","Url":"http:\/\/comcast-sucks.net\/?p=25","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4948532931462090&w=f4a581ed,cfe52f8","DisplayUrl":"comcast-sucks.net\/?p=25","DateTime":"2012-02-17T08:32:00Z"},{"Title":"Why
+      Do People Hate Comcast? 91% People Do (61,244 opinions)","Description":"Bwam
+      ta da dum di da dum dada da dum. @Comcastbill Comcast sucks big time. 20 Feb
+      at 02:06 PM by Markus9000 on Twitter - 75 followers - Flag","Url":"http:\/\/amplicate.com\/hate\/comcast","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4849950547314700&w=2678f11a,4ebd5a6e","DisplayUrl":"amplicate.com\/hate\/comcast","DateTime":"2012-02-21T16:15:00Z"},{"Title":"comcast
+      sucks balls","Description":"This is a site dedicated to our collective hatred
+      of comcast services and customer service. Please send me your stories and I
+      will publish them!","Url":"http:\/\/comcastsucksballs.blogspot.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=5041995713350027&w=feb074f0,7fc92e34","DisplayUrl":"comcastsucksballs.blogspot.com","DateTime":"2012-01-10T19:53:00Z"},{"Title":"ComCast
+      Sucks - Chuck''s Corner","Description":"9 \/28\/2006 It''s not just me... While
+      it has, admittedly, been a while since I''ve had any problems with ComCast,
+      others haven''t been so fortunate.","Url":"http:\/\/www.chuckscorner.com\/ComCast%20Sucks.htm","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4861349396414720&w=b448b653,22aa04dc","DisplayUrl":"www.chuckscorner.com\/ComCast%20Sucks.htm","DateTime":"2012-02-20T03:31:00Z"},{"Title":"Why
+      Comcast Sucks - Data200 Home Page","Description":"Reasons to avoid Comcast ...
+      Unlimited Access IS NOT UNLIMITED usage! Comcast enforces a secret limit on
+      your use of its network.","Url":"http:\/\/www.data200.com\/why_comcast_sucks.htm","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4871270778470611&w=254da7a6,bb4b0107","DisplayUrl":"www.data200.com\/why_comcast_sucks.htm","DateTime":"2012-02-18T00:36:00Z"},{"Title":"COMCAST
+      SUCKS! - YouTube","Description":"Uploaded by NerdHelpDesk on Jan 29, 2011 Tell
+      me your horror stories! Category: Entertainment Tags: comcast sucks bad comapny
+      hate internet isp hack mod ...","Url":"http:\/\/www.youtube.com\/watch?v=yGx3zBIT8Y4","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4553503319263743&w=32b1b259,cbd54b31","DisplayUrl":"www.youtube.com\/watch?v=yGx3zBIT8Y4","DateTime":"2012-02-15T21:13:00Z"},{"Title":"Comcast
+      Sucks - YouTube","Description":"http:\/\/live.pirillo.com - The Electronic Frontier
+      Foundation has found Comcast guilty of traffic shaping. This is a practice where
+      Comcast intentionally ...","Url":"http:\/\/www.youtube.com\/watch?v=5p5EzkRSPzc","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22comcast+sucks%22&d=4505167776842127&w=f852cf98,b86e84fe","DisplayUrl":"www.youtube.com\/watch?v=5p5EzkRSPzc","DateTime":"2012-02-17T02:36:00Z"},{"Title":"ComcastSucks.net
+      - Comcast Sucks .net","Url":"http:\/\/comcastsucks.net\/","DisplayUrl":"comcastsucks.net","DateTime":"2012-02-20T04:42:00Z"}]}}}'
     http_version: '1.1'
 - !ruby/struct:VCR::HTTPInteraction
   request: !ruby/struct:VCR::Request
     method: :get
-    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=apple%20rocks&sources=Web
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22the%20beatles%20rocks%22&sources=Web
     body: 
     headers: 
   response: !ruby/struct:VCR::Response
@@ -115,58 +113,54 @@
       message: OK
     headers:
       content-length:
-      - '6352'
+      - '5703'
       content-type:
       - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
       date:
-      - Wed, 15 Feb 2012 19:39:09 GMT
+      - Tue, 28 Feb 2012 22:15:25 GMT
       connection:
       - keep-alive
-    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"apple rocks"},"Web":{"Total":440000000,"Offset":0,"Results":[{"Title":"Apple
-      Rock Displays","Description":"Trade show displays and beyond - Apple Rock is
-      a skilled, strategic partner that","Url":"http:\/\/www.applerock.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4850654914086067&w=7280ff4,cb67298a","DisplayUrl":"www.applerock.com","DateTime":"2012-02-12T00:10:00Z","DeepLinks":[{"Title":"Exhibiting
-      Ideas","Url":"http:\/\/www.applerock.com\/exhibiting_ideas.asp"},{"Title":"About
-      Us","Url":"http:\/\/www.applerock.com\/aboutus.asp"},{"Title":"Contact Us","Url":"http:\/\/www.applerock.com\/email.asp"},{"Title":"Our
-      Services","Url":"http:\/\/www.applerock.com\/exhibiting.asp"},{"Title":"Event
-      Planning","Url":"http:\/\/www.applerock.com\/eventplanning.asp"},{"Title":"Customer
-      Support","Url":"http:\/\/www.applerock.com\/service.asp"},{"Title":"Trade Show
-      Rentals","Url":"http:\/\/www.applerock.com\/shopping\/t4-48.aspx"},{"Title":"Branded
-      Environment","Url":"http:\/\/www.applerock.com\/branded-environment.asp"}]},{"Title":"AppleRock
-      Home","Description":"The Little Rock Apple Computer Users Group, since 1978.
-      January 10 meeting at Whole Foods, as usual. What will the new year bring to
-      Apple, now ...","Url":"http:\/\/www.applerock.org\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4991843368568262&w=6fae0764,3ecf30b0","DisplayUrl":"www.applerock.org","DateTime":"2012-02-14T11:24:00Z"},{"Title":"Apple","Description":"Apple
-      designs and creates iPod and iTunes, Mac laptop and desktop computers, the OS
-      X operating system, and the revolutionary iPhone and iPad.","Url":"http:\/\/www.apple.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=5057805481280407&w=2ad41416,fbf30ea1","DisplayUrl":"www.apple.com","DateTime":"2012-02-14T06:42:00Z","DeepLinks":[{"Title":"Downloads","Url":"http:\/\/www.apple.com\/downloads\/"},{"Title":"iPhone","Url":"http:\/\/www.apple.com\/iphone\/"},{"Title":"iPad","Url":"http:\/\/www.apple.com\/ipad\/"},{"Title":"iTunes","Url":"http:\/\/www.apple.com\/itunes\/"},{"Title":"Mac","Url":"http:\/\/www.apple.com\/mac\/"},{"Title":"Store","Url":"http:\/\/store.apple.com\/us"},{"Title":"Support","Url":"http:\/\/www.apple.com\/support\/"},{"Title":"Contact
-      Us","Url":"http:\/\/www.apple.com\/contact\/"},{"Title":"iPod","Url":"http:\/\/www.apple.com\/ipod\/"}]},{"Title":"MACRoCk","Description":"Only
-      14 days away. As long as it is post marked before Feb. 14 it will be accepted.
-      Instructions on applying are on the Bands page. Get them in the mail before
-      it is ...","Url":"http:\/\/macrock.org\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4744951477831784&w=c030ae8,9f601e9f","DisplayUrl":"macrock.org","DateTime":"2012-02-14T00:48:00Z","DeepLinks":[{"Title":"Bands","Url":"http:\/\/www.macrock.org\/bands\/"},{"Title":"Registration","Url":"http:\/\/macrock.org\/registration\/"},{"Title":"4Th
-      Wave of Bands","Url":"http:\/\/macrock.org\/2011\/02\/macrock-announces-4th-wave-of-bands\/"},{"Title":"News
-      Archive","Url":"http:\/\/macrock.org\/news-archive\/"},{"Title":"Older Entries","Url":"http:\/\/macrock.org\/page\/2\/"},{"Title":"Panel
-      Information","Url":"http:\/\/macrock.org\/2011\/03\/macrock-announces-panel-information\/"}]},{"Title":"Apple
-      rocks the e-publishing boat: Three key questions | ZDNet","Description":"Summary:
-      Apple’s education announcement still leaves some flawed logic in the company’s
-      plans to bring interactive e-books to students. Here are three ...","Url":"http:\/\/www.zdnet.com\/blog\/btl\/apple-rocks-the-e-publishing-boat-three-key-questions\/67193","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4697672473446082&w=f07e2ca3,79246e69","DisplayUrl":"www.zdnet.com\/blog\/btl\/apple-rocks-the-e-publishing-boat-three-key...","DateTime":"2012-02-10T08:49:00Z"},{"Title":"Split
-      Apple Rock HomeStay ::: Welcome","Description":"Kia Ora. Come stay and enjoy
-      expansive panoramic sea views, including Tasman Bay, Abel Tasman National Park
-      and Split Apple Rock from the decking or right out of your ...","Url":"http:\/\/www.splitapplerock.com\/index.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4692668845262152&w=1e6e6908,c71278de","DisplayUrl":"www.splitapplerock.com\/index.html","DateTime":"2012-02-12T22:15:00Z"},{"Title":"Apple
-      rocks China: Can it outrun counterfeiters? | ZDNet","Description":"Apple may
-      be the rarest of U.S. tech companies—one that can make gobs of money in China
-      and not have to worry excessively about counterfeiting. The big ...","Url":"http:\/\/www.zdnet.com\/blog\/btl\/apple-rocks-china-can-it-outrun-counterfeiters\/52797","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4739947842636003&w=55524b0c,6d913988","DisplayUrl":"www.zdnet.com\/blog\/btl\/apple-rocks-china-can-it-outrun...","DateTime":"2012-02-13T10:58:00Z"},{"Title":"Custom
-      Trade Show Solutions – ADAPT by Apple Rock","Description":"From Apple Rock,
-      the industry leading source of trade show solutions, comes the next evolution
-      in event displays and exhibits: ADAPT. Built for flexibility and ...","Url":"http:\/\/www.applerock.com\/adapt.asp","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=5045444555377217&w=9fa991d5,5aa7a6ae","DisplayUrl":"www.applerock.com\/adapt.asp","DateTime":"2012-02-11T19:46:00Z"},{"Title":"Maiden
-      Rock Apples, Stockholm, WI","Description":"Maiden Rock Apples of Stockholm,
-      Wisconsin, is an award winning apple orchard and winery located on the scenic
-      bluffs above the Mississippi River at Lake Pepin. Our ...","Url":"http:\/\/www.maidenrockapples.com\/index.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4917540441230730&w=9a12a7cd,7210807c","DisplayUrl":"www.maidenrockapples.com\/index.html","DateTime":"2012-02-08T14:08:00Z"},{"Title":"Mac
-      on the Rocks - Wikipedia, the free encyclopedia","Description":"Mac on the Rocks
-      is a 2010 independent film directed by Longinos G. (credited as Luis Romero
-      in this film). It centers around a young man named Mac that has a sudden ...","Url":"http:\/\/en.wikipedia.org\/wiki\/Mac_on_the_Rocks","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+rocks&d=4896293233492442&w=203617ab,5cc0144f","DisplayUrl":"en.wikipedia.org\/wiki\/Mac_on_the_Rocks","DateTime":"2012-02-10T09:19:00Z"}]}}}'
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"the beatles
+      rocks\""},"Web":{"Total":2430000,"Offset":0,"Results":[{"Title":"The Beatles™:
+      Rock Band™","Description":"Rubber Soul Full Album; Sgt Pepper''s Full Album;
+      Abbey Road Full Album; TV Commercial; Click to Watch the Opening Cinematic","Url":"http:\/\/thebeatlesrockband.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4820087642982915&w=836c1b4,6d79b8c1","DisplayUrl":"thebeatlesrockband.com","DateTime":"2012-02-25T22:56:00Z","DeepLinks":[{"Title":"The
+      Story","Url":"http:\/\/thebeatlesrockband.com\/story"},{"Title":"The Music","Url":"http:\/\/thebeatlesrockband.com\/music"},{"Title":"Purchase","Url":"http:\/\/thebeatlesrockband.com\/purchase"},{"Title":"Downloads","Url":"http:\/\/thebeatlesrockband.com\/downloads"},{"Title":"The
+      Game","Url":"http:\/\/thebeatlesrockband.com\/game"},{"Title":"Support","Url":"http:\/\/thebeatlesrockband.com\/support"},{"Title":"Behind
+      The Scenes","Url":"http:\/\/thebeatlesrockband.com\/behindthescenes"},{"Title":"Leaderboards","Url":"http:\/\/thebeatlesrockband.com\/leaderboards"}]},{"Title":"The
+      Beatles: Rock Band - Wikipedia, the free encyclopedia","Description":"The Beatles:
+      Rock Band is a 2009 music video game developed by Harmonix Music Systems, published
+      by MTV Games, and distributed by Electronic Arts. It is the third ...","Url":"http:\/\/en.wikipedia.org\/wiki\/The_Beatles:_Rock_Band","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4532891788642659&w=c2894c37,40a5b55c","DisplayUrl":"en.wikipedia.org\/wiki\/The_Beatles:_Rock_Band","DateTime":"2012-02-27T05:36:00Z"},{"Title":"The
+      Beatles: Rock Band - Game Only for PlayStation 3 | GameStop","Description":"GameStop:
+      Buy The Beatles: Rock Band - Game Only, MTV Games, PlayStation 3, Find release
+      dates, customer reviews, previews and screenshots.","Url":"http:\/\/www.gamestop.com\/ps3\/games\/the-beatles-rock-band-game-only\/74160","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4728106633527592&w=d19d6de8,93ec179","DisplayUrl":"www.gamestop.com\/ps3\/games\/the-beatles-rock-band-game-only\/74160","DateTime":"2012-02-27T14:51:00Z"},{"Title":"The
+      Beatles Rock Band - EA Games","Description":"The world’s leading music game
+      meets the greatest band in history! The Beatles: Rock Band gives fans what they’ve
+      been waiting for.","Url":"http:\/\/www.ea.com\/the-beatles-rock-band","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4518731280024781&w=b65ed105,9e1bb22d","DisplayUrl":"www.ea.com\/the-beatles-rock-band","DateTime":"2012-02-27T12:26:00Z"},{"Title":"The
+      Beatles: Rock Band Limited Edition on sale for $378.99","Description":"Big savings
+      with 11 deals for the The Beatles: Rock Band Limited Edition Premium Bundle
+      [PS3] at GoSale for just $375.00 in stock Check the specs on the Electronic
+      ...","Url":"http:\/\/www.gosale.com\/4981231\/the-beatles-rock-band-limited","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=5052956474278770&w=96deda06,1baefd0d","DisplayUrl":"www.gosale.com\/4981231\/the-beatles-rock-band-limited","DateTime":"2012-02-26T19:08:00Z"},{"Title":"The
+      Beatles: Rock Band - GameSpot.com","Description":"The Beatles: Rock Band trailers,
+      reviews, release dates, news, screenshots, walkthroughs, cheats, and more on
+      GameSpot.","Url":"http:\/\/www.gamespot.com\/the-beatles-rock-band\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=5026714224495202&w=a124534,59c51563","DisplayUrl":"www.gamespot.com\/the-beatles-rock-band","DateTime":"2012-02-25T08:39:00Z"},{"Title":"The
+      Beatles: Rock Band Cheats, Codes, Unlockables - Xbox 360 - IGN","Description":"The
+      Beatles: Rock Band for Xbox 360 Cheats - IGN has all the codes, cheat codes,
+      unlockables, easter eggs, achievements, hints, tips and secrets","Url":"http:\/\/www.ign.com\/cheats\/games\/the-beatles-rock-band-xbox-360-14294513","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4647850871622196&w=85b1b833,700837d3","DisplayUrl":"www.ign.com\/cheats\/games\/the-beatles-rock-band-xbox-360-14294513","DateTime":"2012-02-25T15:47:00Z"},{"Title":"The
+      Beatles: Rock Band (Nintendo Wii) : Target","Description":"Find product information,
+      ratings and reviews for a The Beatles: Rock Band (Nintendo Wii).","Url":"http:\/\/www.target.com\/p\/The-Beatles-Rock-Band-Nintendo-Wii\/-\/A-11230073","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4790641348576928&w=18e1d683,862da121","DisplayUrl":"www.target.com\/p\/The-Beatles-Rock-Band-Nintendo-Wii\/-\/A-11230073","DateTime":"2012-02-25T11:29:00Z"},{"Title":"The
+      Beatles Rock Band | eBay","Description":"eBay: The Beatles Rock Band ... Where
+      results contain multi-variation listings, the item counts on the page are inclusive
+      of all matching variations that are available.","Url":"http:\/\/www.ebay.com\/sch\/i.html?_nkw=The+Beatles+Rock+Band","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4740304325119017&w=89688f6a,bda25af5","DisplayUrl":"www.ebay.com\/sch\/i.html?_nkw=The+Beatles+Rock+Band","DateTime":"2012-02-14T19:56:00Z"},{"Title":"the
+      beatles rock band wii | eBay","Description":"eBay: the beatles rock band wii
+      ... Where results contain multi-variation listings, the item counts on the page
+      are inclusive of all matching variations that are ...","Url":"http:\/\/www.ebay.com\/sch\/i.html?_nkw=the+beatles+rock+band+wii","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+rocks%22&d=4607576959812637&w=5a4c0e88,7c1929bb","DisplayUrl":"www.ebay.com\/sch\/i.html?_nkw=the+beatles+rock+band+wii","DateTime":"2012-02-19T04:36:00Z"}]}}}'
     http_version: '1.1'
 - !ruby/struct:VCR::HTTPInteraction
   request: !ruby/struct:VCR::Request
     method: :get
-    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=apple%20sucks&sources=Web
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22the%20beatles%20sucks%22&sources=Web
     body: 
     headers: 
   response: !ruby/struct:VCR::Response
@@ -175,39 +169,44 @@
       message: OK
     headers:
       content-length:
-      - '4787'
+      - '5159'
       content-type:
       - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
       date:
-      - Wed, 15 Feb 2012 19:39:10 GMT
+      - Tue, 28 Feb 2012 22:15:26 GMT
       connection:
       - keep-alive
-    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"apple sucks"},"Web":{"Total":101000000,"Offset":0,"Results":[{"Title":"Apple
-      Sucks: Guy Gear - AskMen","Description":"Yes, Apple products are like crack
-      and we all covet them, but we have 5 compelling reasons why Apple sucks.","Url":"http:\/\/www.askmen.com\/entertainment\/guy_gear_150\/154_apple-sucks-guy-gear.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4869316542399306&w=807d22e0,ad40171e","DisplayUrl":"www.askmen.com\/entertainment\/guy_gear_150\/154_apple-sucks-guy-gear...","DateTime":"2012-02-14T09:23:00Z"},{"Title":"Apple","Description":"Apple
-      designs and creates iPod and iTunes, Mac laptop and desktop computers, the OS
-      X operating system, and the revolutionary iPhone and iPad.","Url":"http:\/\/www.apple.com\/?macrumors+just+sucks","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4906038507146248&w=a9a22917,b7ab83ee","DisplayUrl":"www.apple.com\/?macrumors+just+sucks","DateTime":"2012-02-10T23:13:00Z"},{"Title":"Apple
-      Sucks | Facebook","Description":"Apple Sucks - Description: Apple is a marketing
-      company that also happens to make gadgets. Apple has never truly \"invented\"
-      anything in the last 30 years. What they ...","Url":"http:\/\/www.facebook.com\/pages\/Apple-Sucks\/288520878841","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4560328018822650&w=d77c2f4d,bb6dced4","DisplayUrl":"www.facebook.com\/pages\/Apple-Sucks\/288520878841","DateTime":"2012-02-12T05:54:00Z"},{"Title":"Apple
-      Sucks - Computers\/Technology - Galien | Facebook","Description":"Apple Sucks
-      - Even Apple knows it sucks, but why must they continue to offer us overpriced
-      crap? 400 (X) 500 (?) | Facebook","Url":"http:\/\/www.facebook.com\/pages\/Apple-Sucks\/333523806745","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=5037825286606833&w=bbd1601e,328d2e92","DisplayUrl":"www.facebook.com\/pages\/Apple-Sucks\/333523806745","DateTime":"2012-02-06T08:35:00Z"},{"Title":"Why
-      Apple Sucks - fnt (fascinating new thing)","Description":"May 26, 2010. Wife''s
-      MacBook Pro had its DVD and iSight camera fixed last week, two weeks shy of
-      its Extended AppleCare contract running out, rendering it *completely ...","Url":"http:\/\/www.darryl.com\/apple.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4632504947114420&w=11136da4,102b5e74","DisplayUrl":"www.darryl.com\/apple.html","DateTime":"2012-02-07T10:12:00Z"},{"Title":"Apple
-      Sucks","Description":"One would think that with the success of the iPod, iTunes
-      and their commercials, Apple would be very pro-musician. After all, the reason
-      so many people like their ...","Url":"http:\/\/applesucks.wordpress.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4924356545219464&w=62d13a8a,f7bdba45","DisplayUrl":"applesucks.wordpress.com","DateTime":"2011-12-18T14:06:00Z"},{"Title":"Apple
-      Can Suck My Balls - 100% Pure Truth Juice","Description":"Here’s a little yuletide
-      rambling for the fans, and for you mac sucking little Apple freakazoids that
-      get all giddy whenever one of those annoying ass commercials ...","Url":"http:\/\/apple.cansuckmyballs.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4552597087585739&w=3b7f4daf,11c525a6","DisplayUrl":"apple.cansuckmyballs.com","DateTime":"2012-02-14T08:36:00Z"},{"Title":"The
-      Mac Sucks","Description":"You may have heard about them for sure – liposuction,
-      nose jobs, and face lifts. While they are the typical procedures, people have
-      many other purposes why they get ...","Url":"http:\/\/themacsucks.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4940999550896250&w=7d152ee2,883e8d5e","DisplayUrl":"themacsucks.com","DateTime":"2012-02-12T14:04:00Z"},{"Title":"Why
-      Apple Sucks – 26 Concise Reasons « DUMMR.com","Description":"An article from
-      TechRadar does an excellent job of skewering the corporation that is all style
-      and no substance. Apple fan boys may get upset, but normal ...","Url":"http:\/\/dummr.wordpress.com\/2010\/05\/25\/why-apple-sucks-26-concise-reasons\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4630348867371331&w=aa39b337,973d457d","DisplayUrl":"dummr.wordpress.com\/2010\/05\/25\/why-apple-sucks-26-concise-reasons","DateTime":"2012-02-11T17:14:00Z"},{"Title":"Apple
-      Sucks: Guy Gear - AskMen Canada","Description":"Yes, Apple products are like
-      crack and we all covet them, but we have 5 compelling reasons why Apple sucks.","Url":"http:\/\/ca.askmen.com\/entertainment\/guy_gear_150\/154_apple-sucks-guy-gear.html","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=apple+sucks&d=4707580960638732&w=370cd86a,b4cd66a5","DisplayUrl":"ca.askmen.com\/entertainment\/guy_gear_150\/154_apple-sucks-guy-gear.html","DateTime":"2012-02-10T16:25:00Z"}]}}}'
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"the beatles
+      sucks\""},"Web":{"Total":217,"Offset":0,"Results":[{"Title":"The Beatles SUCK
+      homepage - Robert Areddy Web Design Portfolio","Description":"The Beatles, and
+      how they are over rated and suck!","Url":"http:\/\/www.areddy.net\/beatles_suck\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4610738056529602&w=d42ff6fd,980ea599","DisplayUrl":"www.areddy.net\/beatles_suck","DateTime":"2012-02-12T08:59:00Z"},{"Title":"Who
+      thinks the Beatles SUCK? - Yahoo! Answers","Description":"Best Answer: I think
+      probably plenty of people do. But I believe they do so either as trolls or out
+      of ignorance. If you have a clear sense of musical ...","Url":"http:\/\/answers.yahoo.com\/question\/index?qid=20071031141908AAnvrY1","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4948129202835470&w=374b84fe,a838e7db","DisplayUrl":"answers.yahoo.com\/question\/index?qid=20071031141908AAnvrY1","DateTime":"2012-01-25T02:49:00Z"},{"Title":"Suck
+      My Beatles","Description":"The Beatles Suck. A look at why you like them and
+      how they''ve manipulated the world through propaganda and mind control.","Url":"http:\/\/suckmybeatles.com\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4746192732881205&w=98dab666,c62a316e","DisplayUrl":"suckmybeatles.com","DateTime":"2012-02-21T12:29:00Z"},{"Title":"ELVIS
+      SUCKS ...","Description":"When it comes to Pop and Rock n Roll, you do not get
+      much bigger than the names of Michael Jackson, Elvis Presley and The Beatles
+      but few music goers agree on the ...","Url":"http:\/\/www.topix.com\/forum\/who\/elvis-presley\/TGE8HI687ENAGAB30","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4787600514417573&w=279b43dc,2eb3667a","DisplayUrl":"www.topix.com\/forum\/who\/elvis-presley\/TGE8HI687ENAGAB30","DateTime":"2012-02-21T02:46:00Z"},{"Title":"Why
+      The Beatles Suck (According to One Writer) « TRAVIS Magazine ...","Description":"THE
+      NEXT TIME you want to be told that you’re a brain-dead moron that doesn’t know
+      a damn thing, tell a large group of people that you don’t like The ...","Url":"http:\/\/travismagazine.wordpress.com\/2009\/03\/18\/why-the-beatles-suck-according-to-one-writer\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4507959497591127&w=3a55dd21,df9ddc3d","DisplayUrl":"travismagazine.wordpress.com\/2009\/03\/18\/why-the-beatles-suck...","DateTime":"2012-02-18T13:43:00Z"},{"Title":"–
+      The Beatles are overrated, enough said | Central Michigan Life","Description":"How
+      can a band who stopped playing live shows in 1966 and started making just studio
+      albums be ‘the greatest band ever’? Nothing is more annoying than somebody ...","Url":"http:\/\/www.cm-life.com\/2009\/09\/09\/the-beatles-are-overrated-enough-said\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=5029385691398805&w=99000ad4,f1229a31","DisplayUrl":"www.cm-life.com\/2009\/09\/09\/the-beatles-are-overrated-enough-said","DateTime":"2012-02-19T19:52:00Z"},{"Title":"The
+      Beatles- Why Don''t We Do It In The Road - YouTube","Description":"Uploaded
+      by SCWoodbury2009 on Jul 20, 2009 White Album Category: Music Tags: the beatles
+      white album why don''t we do it in road rocky raccoon blackbird ...","Url":"http:\/\/www.youtube.com\/watch?v=KM02WcvlKn0","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4773246731553042&w=abf83362,2228c565","DisplayUrl":"www.youtube.com\/watch?v=KM02WcvlKn0","DateTime":"2012-02-19T04:03:00Z"},{"Title":"Michael
+      Jackson – Elvis Presley. What’s The Difference ...","Description":"There is
+      something I don’t understand. Why do most people hate Michael Jackson but love
+      Elvis Presley. Elvis Presley is seen as this huge God almighty creature, and
+      ...","Url":"http:\/\/popdirt.com\/michael-jackson-elvis-presley-whats-the-difference\/35944\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4783120852585495&w=1ce22ae9,d0897d36","DisplayUrl":"popdirt.com\/michael-jackson-elvis-presley-whats-the-difference\/35944","DateTime":"2012-02-18T12:27:00Z"},{"Title":"Michael
+      Jackson 2nd after the Beatles; Elvis Presley 3rd, is that ...","Description":"Michael
+      Jackson 2nd after the Beatles; Elvis Presley 3rd, is that reality? Posted in
+      the Michael Jackson Forum","Url":"http:\/\/www.topix.com\/forum\/who\/michael-jackson\/TSHAPP63512AOKBHC\/","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=4783155219598643&w=699cab0b,27b262e9","DisplayUrl":"www.topix.com\/forum\/who\/michael-jackson\/TSHAPP63512AOKBHC","DateTime":"2012-02-19T12:53:00Z"},{"Title":"why
+      the beatles suck - YouTube","Description":"Uploaded by Rocknrollsuckdick on
+      Jul 18, 2010 this video tells you why the beatles sucks ass Category: Education
+      Tags: The Beatles Rock and metal suck pop ...","Url":"http:\/\/www.youtube.com\/watch?v=Fuzp0nGCVoM","CacheUrl":"http:\/\/cc.bingj.com\/cache.aspx?q=%22the+beatles+sucks%22&d=5003323830766790&w=a8b58968,86e4a3ab","DisplayUrl":"www.youtube.com\/watch?v=Fuzp0nGCVoM","DateTime":"2012-02-11T07:09:00Z"}]}}}'
     http_version: '1.1'
