@@ -11,5 +11,10 @@ describe CachedScore do
       CachedScore.for_term("microsoft")
     end.to raise_error(CachedScore::NoScore)
   end
+
+  it "should save NoScores as nil" do
+    CachedScore.save_score("microsoft", RockScore::NoScore)
+    CachedScore.for_term("microsoft").should be_nil
+  end
 end
 
