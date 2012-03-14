@@ -9,7 +9,8 @@ class CachedScore < ActiveRecord::Base
 
   def self.for_term(term)
     cached_score = find_by_term(term) or raise NoScore
-    cached_score.score
+    score = cached_score.score
+    score.nil? ? RockScore::NoScore : score
   end
 end
 
