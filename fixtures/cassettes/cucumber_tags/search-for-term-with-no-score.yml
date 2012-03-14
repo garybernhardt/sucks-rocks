@@ -1,0 +1,49 @@
+---
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22zoiawhgfoaiwheoiahgawoi%20rocks%22&sources=Web
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-length:
+      - '125'
+      content-type:
+      - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
+      date:
+      - Wed, 14 Mar 2012 17:18:46 GMT
+      connection:
+      - keep-alive
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"zoiawhgfoaiwheoiahgawoi
+      rocks\""},"Web":{"Total":0,"Offset":0}}}'
+    http_version: '1.1'
+- !ruby/struct:VCR::HTTPInteraction
+  request: !ruby/struct:VCR::Request
+    method: :get
+    uri: http://api.search.live.net:80/json.aspx?AppId=<BING APP ID>&query=%22zoiawhgfoaiwheoiahgawoi%20sucks%22&sources=Web
+    body: 
+    headers: 
+  response: !ruby/struct:VCR::Response
+    status: !ruby/struct:VCR::ResponseStatus
+      code: 200
+      message: OK
+    headers:
+      content-length:
+      - '125'
+      content-type:
+      - application/json; charset=utf-8
+      x-content-type-options:
+      - nosniff
+      date:
+      - Wed, 14 Mar 2012 17:18:46 GMT
+      connection:
+      - keep-alive
+    body: ! '{"SearchResponse":{"Version":"2.2","Query":{"SearchTerms":"\"zoiawhgfoaiwheoiahgawoi
+      sucks\""},"Web":{"Total":0,"Offset":0}}}'
+    http_version: '1.1'

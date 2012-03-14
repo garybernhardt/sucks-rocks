@@ -15,3 +15,7 @@ Then /^I should see a score of 2.5$/ do
   @last_score.should == 2.5
 end
 
+Then /^I should see no score$/ do
+  @last_score.should == RockScore::NoScore
+end
+

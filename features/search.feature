@@ -11,8 +11,10 @@ Feature: Users can learn how good something is
     When I search for microsoft
     Then I should see a score of 2.5
 
+  @search-for-term-with-no-score
   Scenario: Search for term with no score
-    When pending
+    When I search for zoiawhgfoaiwheoiahgawoi
+    Then I should see no score
 
   Scenario: Why are the results so extreme for the beatles and comcast?
     When pending
