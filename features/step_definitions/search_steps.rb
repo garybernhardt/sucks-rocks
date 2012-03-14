@@ -2,6 +2,10 @@ Given /^microsoft is cached with a score of 2.5$/ do
   CachedScore.save_score("microsoft", 2.5)
 end
 
+Given /^microsoft is cached with no score$/ do
+  CachedScore.save_score("microsoft", RockScore::NoScore)
+end
+
 When /^I search for (.*)$/ do |term|
   @scores ||= {}
   @scores[term] = @last_score = ScoreCache.for_term(term)
